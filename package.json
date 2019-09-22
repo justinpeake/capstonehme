@@ -1,0 +1,25 @@
+{
+  "name": "capstone",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "bootstrap": "^4.3.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "dotenv": "^8.1.0",
+    "ejs": "^2.7.1",
+    "express": "~4.15.2",
+    "handlebars": "^4.2.1",
+    "hogan-express": "^0.5.2",
+    "hogan.js": "^3.0.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.8.1",
+    "mustache.js": "^1.0.0",
+    "mysql": "^2.17.1",
+    "serve-favicon": "~2.4.2"
+  }
+}
