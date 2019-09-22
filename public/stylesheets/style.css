@@ -16,3 +16,8 @@ a {
   width:20%;
   height:auto;
 }
+
+.searchField {
+  float: left;
+  display: inline-block;
+}

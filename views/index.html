@@ -26,17 +26,22 @@ Happy Searching!
 </div>
 <div style="text-align: center">
         SEARCH BY: <br> <br>
-        <form action="/citysearch" method="get">
+        <form action="/citysearch" method="get" class="searchField">
            <input type="text" name="city">
             <input type="submit" value="CITY">
           </form>
+         <br>
+         <form action="/statesearch" method="get" class="searchField">
+            <input type="text" name="state">
+             <input type="submit" value="STATE">
+           </form>
           <br>
-          <form action="/providersearch" method="get">
+          <form action="/providersearch" method="get" class="searchField">
             <input type="text" name="provider">
              <input type="submit" value="PROVIDER #">
            </form>
            <br>
-           <form action="/namesearch" method="get">
+           <form action="/namesearch" method="get" class="searchField">
             <input type="text" name="name">
              <input type="submit" value="NAME">
            </form>
